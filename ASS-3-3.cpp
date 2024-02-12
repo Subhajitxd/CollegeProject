@@ -10,6 +10,8 @@ int main()
 	scanf("%d",&num3);
 	
 	large=num1>num2?(num1>num3?num1:num3):(num2>num3?num2:num3);
+	small=num1<num2?(num1<num3?num1:num3):(num2<num3?num2:num3);
 	printf("Large is : %d", large);
+	printf("Minimum number is : %d", small);
 	return 0;
 }
