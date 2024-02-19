@@ -7,7 +7,7 @@ int main() {
 
     // Calculate the expression
     for (int i = 1; i <= n; ++i) {
-        result += (int)pow(i, i);
+        result += pow(i, i);
     }
 
     // Display the result
